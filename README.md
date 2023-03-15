@@ -1,4 +1,4 @@
-# Corrida ATEC
+# Corrida ATEC | ATEC Race Challenge
 
 
 ## Enquadramento
@@ -6,7 +6,7 @@ A ATEC realiza anualmente uma corrida de solidariedade. Por forma a informatizar
 
 ATEC organizes a charity race every year. In order to computerize the consultation of results, ATEC asked the class to make a small program that loads the general results and allows the consultation, through the dorsal number, of the race information of each athlete that finished the race
 
-## Fciheiro de Resultados Gerais
+## Fciheiro de Resultados Gerais | General Results File
 Considere um ficheiro de dados de texto que contém os resultados de uma prova de atletismo. Cada linha do ficheiro 
 representa um participante e contém a seguinte informação:
 - Posição: Posição geral em que acabou a prova. Exemplo de ficheiro no servidor GIT
@@ -36,7 +36,7 @@ Pos.	Escalão	Pos. Esc.	Dorsal	Nome	Sexo	Tempo
 ...
 ```
 
-## General Results File
+
 Consider a text data file that contains the results of a track and field race. Each line of the file 
 represents one participant and contains the following information:
 - Position: overall position in which he finished the race. Example of file on GIT server
@@ -66,8 +66,8 @@ Pos.	Rank Pos. Rank Pos. Name Gender Time
 ...
 ```
 
-## Trabalho a efetuar
-### Ler Ficheiro e criar lista encadeada de atletas | Read file and create chained list of athletes
+
+### Ler Ficheiro e criar lista encadeada de atletas | Read file and create linked list of athletes
 - O nome do ficheiro deve ser passado ao programa por um argumento de linha de comando: `./corrida results-atec.txt`
   - Caso o ficheiro não exista (erro ao abrir em modo de leitura), o programa deve terminar com a seguinte mensagem de erro `ERRO! Ficheiro não encontrado`;
 - Crie estrutura(s) que permitam guardar a informação e gerar uma lista encadeada (simplesmente encadeada ou duplamente encadeada é uma opção sua);
